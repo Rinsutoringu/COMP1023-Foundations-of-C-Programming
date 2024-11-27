@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.compilerPath": "d:\\GCC\\10 2021.10\\bin\\gccvar.bat",
+    "files.associations": {
+        "cmath": "c",
+        "limits": "c",
+        "stdio.h": "c",
+        "digit.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

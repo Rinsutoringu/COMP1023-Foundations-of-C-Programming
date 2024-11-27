@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/*.rpyc": true,
+        "**/*.rpa": true,
+        "**/*.rpymc": true,
+        "**/cache/": true
+    },
+    "background.editor": {
+
+        "useFront": true,
+        "style": {
+            "background-position": "100% 100%",
+            "background-size": "auto",
+            "opacity": 0.24
+        },
+        "styles": [
+            {},
+            {},
+            {}
+        ],
+        "images": ["file:///D:/Apps/DEV_Tools/vscbg/bg1.png",
+                    "file:///D:/Apps/DEV_Tools/vscbg/bg2.png"],
+        "interval": 0,
+        "random": true
+    }
+}
