@@ -4,7 +4,7 @@
  Author: Pengran Wang
  Version: 1.0
  Copyright: copyright CC_BY_NC_ND
- Description: 
+ Description: how to use struct 
  =============================================
 */
 
