@@ -100,7 +100,7 @@ int main(){
         return 0;
     }
 
-    printf("%d %d %d", next.month, next.day, next.year);
+    printf("The next day of input date is %d/%d/%d.\n", next.month, next.day, next.year);
     return 0;
 }
 

@@ -19,14 +19,20 @@ typedef struct
     float y;
 } Point;
 
+// define define define define define define define 
+// define define define define define define define 
+// define define define define define define define 
 typedef struct 
 {
     Point p1;
     Point p2;
     Point p3;
 } Triangle;
+// define define define define define define define 
 
-
+// define define define define define define define 
+// define define define define define define define 
+// define define define define define define define 
 int main(int argc, char const *argv[])
 {
     Triangle triangle;
@@ -37,12 +43,9 @@ int main(int argc, char const *argv[])
     printf("Enter the coordinates of the 3rd point: ");
     scanf("%f, %f", &triangle.p3.x, &triangle.p3.y);
 
-    float a = LINE_LENGTH(triangle.p1.x, triangle.p2.x, triangle.p1.y, triangle.p2.y);
-    float b = LINE_LENGTH(triangle.p1.x, triangle.p3.x, triangle.p1.y, triangle.p3.y);
-    float c = LINE_LENGTH(triangle.p3.x, triangle.p2.x, triangle.p3.y, triangle.p2.y);
-
-    float circumference = a+b+c;
-
-    printf("the circumference of the triangle is %f.", circumference);
+    printf("the circumference of the triangle is %f.\n", 
+    LINE_LENGTH(triangle.p1.x, triangle.p2.x, triangle.p1.y, triangle.p2.y)+
+    LINE_LENGTH(triangle.p1.x, triangle.p3.x, triangle.p1.y, triangle.p3.y)+
+    LINE_LENGTH(triangle.p3.x, triangle.p2.x, triangle.p3.y, triangle.p2.y));
     return 0;
 }

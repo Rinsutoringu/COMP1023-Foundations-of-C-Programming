@@ -29,6 +29,7 @@ void sort_students(struct Student students_info[], int n)
         {
             if (students_info[j].name[0] > students_info[j + 1].name[0])
             {
+                // sooooorts
                 temp = students_info[j];
                 students_info[j] = students_info[j + 1];
                 students_info[j + 1] = temp;
@@ -39,6 +40,7 @@ void sort_students(struct Student students_info[], int n)
 
 int main()
 {
+    // input
     int n;
     printf("Input the number of students: ");
     scanf("%d", &n);
@@ -56,6 +58,7 @@ int main()
         scanf("%d", &student_info[i].score);
         scanf("%s", &student_info[i].major);
     }
+    // do sorts
     sort_students(student_info, n);
     printf("The student list in ascending order by name is:\n");
     for (int i = 0; i < n; i++)
